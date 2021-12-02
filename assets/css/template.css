@@ -1,7 +1,7 @@
 :root {
     --branco:#fff;
     --larprinc:#fda172;
-    --clay:#80400b;
+    --clay:#f09c72;
     --fire:#dd571c;
     --black:#000;
 }
@@ -42,10 +42,12 @@ h1 {
     font-size: 60px;
     font-weight: bold;
     color:var(--black);
-    cursor: pointer;
+    
+   
 }
 .item:hover {
     background-color: var(--clay);
+   cursor: pointer;
 }
 
 .item.t {
@@ -66,7 +68,7 @@ h1 {
     width: 300px;
     display: flex;
     margin-top: 30px;
-    border: 1px dotted #fff;
+    border: 1px dotted var(--black);
     padding: 10px;
 }
 
@@ -76,13 +78,37 @@ h1 {
 
 .infotitulo {
     text-align: center;
-    color: var(--branco);
+    color: var(--black);
     margin-bottom: 10px;
 }
 
 .infocorpo {
     text-align: center;
-    color: var(--branco);
+    color: var(--black);
     font-size: 20px;
+    
+}
+
+.reset {
+    background-color: var(--black);
+    color: var(--branco);
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: 1px solid var(--black);
+    border-radius:5px;
+    padding: 7px;
+    cursor: pointer;
+    
+}
+.reset:hover {
+    background-color: var(--clay);
+    
+}
+
+footer, span {
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
     
 }
